@@ -1,0 +1,23 @@
+## TO DO LIST 💻📃📌
+
+### Este é um projeto de uma aplicação de To-Do List desenvolvida em React JS. Com uma interface intuitiva e amigável, o aplicativo permite que os usuários gerenciem suas tarefas diárias, definindo prazos, prioridades e marcando as tarefas concluídas.
+
+#### Recursos Principais:
+
+- Adicionar, editar e excluir tarefas.
+- Marcar tarefas como concluídas.
+- Definir prioridades para as tarefas.
+- Filtrar tarefas por status (concluídas/pendentes) e prioridades.
+- Ordenar tarefas por data de criação ou prazo.
+- Interface responsiva e amigável.
+- Persistência de dados utilizando local storage.
+
+#### Tecnologias Utilizadas:
+
+- React JS: Biblioteca JavaScript para construção de interfaces de usuário interativas.
+
+- CSS: Estilização e layout da aplicação.
+
+- HTML: Estruturação da página e elementos.
+
+Este projeto é uma ótima oportunidade para praticar os conceitos de React JS e aprimorar as habilidades de desenvolvimento web. Fique à vontade para explorar o código-fonte e contribuir para o aprimoramento deste projeto de To-Do List em React JS.
