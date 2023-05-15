@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -35,8 +36,6 @@ function App() {
                 <button className="complete">Completar</button>
                 <button className="delete">X</button>
               </div>
-
-              <hr />
             </div>
           </div>
         ))}
