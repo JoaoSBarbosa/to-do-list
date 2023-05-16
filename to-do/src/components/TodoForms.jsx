@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-const TodoForms = () => {
+const TodoForms = ({ addTodo }) => {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
   const heandleSubmit = (event) => {
     event.preventDefault();
     if (!value || !category) return;
+    addTodo(value, category);
 
     setCategory("");
     setValue("");
