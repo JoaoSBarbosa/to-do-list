@@ -6,10 +6,10 @@ const Todo = ({ todo }) => {
       <div className="content">
         <p className="text">{todo.text}</p>
         <p className="category">({todo.category})</p>
-        <div className="action-buttons">
-          <button className="complete">Completar</button>
-          <button className="delete">X</button>
-        </div>
+      </div>
+      <div className="action-buttons">
+        <button className="complete">Completar</button>
+        <button className="delete">X</button>
       </div>
     </div>
   );
