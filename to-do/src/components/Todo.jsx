@@ -8,7 +8,9 @@ const Todo = ({ todo, removeTodo, completeTodo }) => {
     >
       <div className="content">
         <p className="text">{todo.text}</p>
-        <p className="category">({todo.category})</p>
+        <p className="category" style={{ color: "#45aab8" }}>
+          [{todo.category}]
+        </p>
       </div>
       <div className="action-buttons">
         <button className="complete" onClick={() => completeTodo(todo.id)}>
